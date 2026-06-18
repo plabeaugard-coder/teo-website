@@ -65,7 +65,7 @@ export default function Layout() {
       >
         <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link to="/" className="flex w-full justify-center">
-            <img src="/src/assets/images/logo2.png" alt="Tangibles Estate Organizer" className="h-16 w-auto object-contain" />
+            <img src={logo} alt="Tangibles Estate Organizer" className="h-16 w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
