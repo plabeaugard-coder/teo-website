@@ -65,7 +65,7 @@ export default function Layout() {
       >
         <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link to="/" className="flex items-center group">
-            <img src={logo} alt="Tangibles Estate Organizer" className="h-10 w-auto" />
+            <img src={logo} alt="Tangibles Estate Organizer" className="h-20 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -189,7 +189,7 @@ export default function Layout() {
         <div className="w-full max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-700 pb-12">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center mb-6">
-              <img src={logo} alt="Tangibles Estate Organizer" className="h-10 w-auto brightness-0 invert" />
+              <img src={logo} alt="Tangibles Estate Organizer" className="h-20 w-auto brightness-0 invert" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Specialized decedent property transition service for landlords, managers, and families.
