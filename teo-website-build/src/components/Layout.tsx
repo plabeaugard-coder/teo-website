@@ -65,7 +65,15 @@ export default function Layout() {
       >
         <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link to="/" className="flex items-center group">
-            <img src={logo} alt="Tangibles Estate Organizer" className="h-20 w-auto" />
+            {/* Cropped logo container — hides the bottom blurry script tagline */}
+            <div className="overflow-hidden h-[80px] md:h-[110px]">
+              <img src={logo} alt="Tangibles Estate Organizer" className="h-full w-auto object-cover object-top" />
+            </div>
+            {/* Desktop vertical divider + tagline */}
+            <span className="hidden md:inline-block text-gray-300 text-3xl font-thin mx-3 md:mx-4 leading-none">|</span>
+            <span className="hidden md:block text-[13px] lg:text-[15px] font-medium text-charcoal-light font-sans tracking-wide leading-tight">
+              Secure. Organize. Inventory. Pack.
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
