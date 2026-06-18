@@ -1,7 +1,7 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Menu, X, ArrowRight, ChevronDown, Facebook, Instagram } from 'lucide-react';
-import logo from '../assets/images/logo2.png';
+import logo from '../../assets/images/logo2.png';
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function Layout() {
