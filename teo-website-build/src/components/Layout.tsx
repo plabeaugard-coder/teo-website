@@ -59,7 +59,7 @@ export default function Layout() {
       </div>
 
      <header className={`sticky top-0 z-50 transition-all duration-300 ${
-    isScrolled ? 'bg-white shadow-md py-4' : 'bg-white/90 backdrop-blur-md py-6'
+    isScrolled ? 'bg-white shadow-md py-8' : 'bg-white/90 backdrop-blur-md py-10'
   }`}
 >
         <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
